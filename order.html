@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rizza Order</title>
+  </head>
+
+  <body>
+    <header></header>
+    <h1>Order Your Pizza</h1>
+    <menu>
+      <section>
+        <form action="./order.html">
+          <section>
+            <label for="pizza_name"> Name Your Pizza</label><br />
+            <input type="text" name="pizza_name" id="pizza_name" />
+          </section>
+          <br />
+          <section>
+            <label for="pizza_base">Select Your Base</label> <br />
+            <!-- <input type="text" name="pizza_base" id="pizza_base"> -->
+            <select name="pizza_base" id="pizza_base">
+              <option value="ince">Ince</option>
+              <option value="orts">Orta</option>
+              <option value="kalin">Kalin</option>
+            </select>
+          </section>
+          <br />
+          <section>
+            <label for="base_sous">Pizza Base Sous</label><br />
+            <input type="text" id="base_sous" list="pizza_sous" />
+            <datalist id="pizza_sous">
+              <option value="pamidor"></option>
+              <option value="balgarly"></option>
+              <option value="chisnokly"></option>
+              <option value="almaly"></option>
+              <option value="bananly"></option>
+            </datalist>
+          </section>
+          <br />
+          <section>
+            <label for="sous"> Ketchup Moyenez</label> <br />
+            <span>Yes</span>
+            <input type="radio" name="sous" id="sous" />
+            <span>No</span>
+            <input type="radio" id="sous" name="sous" />
+          </section>
+          <br />
+          <section>
+            <label for="size">Pizza Size</label> <br />
+            <span>Min</span>
+            <input type="range" min="1" max="5" step="1" name="size" />
+            <span>Max</span>
+          </section>
+          <br />
+          <section>
+            <label for="extra_goods"></label>
+            <span>Olive</span>
+            <input type="checkbox" />
+            <br />
+            <span>Garlick</span>
+            <input type="checkbox" />
+            <br />
+            <span>Unyon</span>
+            <input type="checkbox" />
+          </section>
+          <br />
+          <section>
+            <button type="submit">Submit</button>
+          </section>
+        </form>
+      </section>
+    </menu>
+    <hr />
+    <footer>
+      &COPY; Designed by
+      <a
+        href="https://www.linkedin.com/in/iskander-garajayev-799923182/"
+        target="_blank"
+      >
+        G.I.</a
+      >
+    </footer>
+  </body>
+</html>
