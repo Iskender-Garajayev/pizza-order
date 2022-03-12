@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-merhaba
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../css/sign_in.css">
+  </head>
+  <body>
+    <header></header>
+    <header>
+      <h1>Registration Form</h1>
+      <form action="./sign_up.html"></form>
+      <section>
+        <label for="user_id">User Id</label>
+        <input type="text" id="user_id" />
+      </section>
+      <br />
+      <section>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" />
+      </section>
+      <br />
+      <section>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+      </section>
+      <br />
+      <section>
+        <label for="adress">Adress:</label>
+        <input type="text" id="adress" />
+      </section>
+      <br />
+      <section>
+        <label for="base_sous">Country:</label>
+        <input type="text" id="base_sous" list="pizza_sous" />
+        <datalist id="pizza_sous">
+          <option value="Turkmenistan"></option>
+          <option value="Turkey"></option>
+          <option value="Russiya"></option>
+          <option value="Germany"></option>
+          <option value="France"></option>
+        </datalist>
+      </section>
+      <br />
+      <section>
+        <label for="user_id">ZIP Code:</label>
+        <input type="text" id="user_id" />
+      </section>
+      <br />
+      <section>
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+      </section>
+      <br />
+      <section>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" />
+        <span>Male</span>
+        <input type="radio" id="fwmale" name="gender" />
+        <span>Female</span>
+      </section>
+      <br>
+      <section>
+        <textarea name="comment" id="comment" cols="100" rows="6"></textarea>
+      </section>
+      <br>
+      <section>
+        <button type="submit" > Submite </button>
+      </section>
+      <br />
+    </header>
+    <hr>
+    <footer>
+      &COPY; Designed by
+      <a
+        href="https://www.linkedin.com/in/iskander-garajayev-799923182/"
+        target="_blank"
+      >
+        G.I.</a
+      >
+    </footer>
+  </body>
 </html>
