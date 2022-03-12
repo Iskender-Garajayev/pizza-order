@@ -1,0 +1,16 @@
+body{
+  background-image: url(../img/pizza.jpg);
+  text-align: center;
+  color: aliceblue;  
+}
+.renk{
+  color: red;
+}
+
+label{
+  padding-bottom: 10px;
+}
+
+*{
+/* padding-bottom: 20px; */
+}
